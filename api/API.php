@@ -102,7 +102,7 @@ function Book(){
         $obj=["status"=>"470","statusDescription"=>"User token problem"];
         $jsonObj="[".json_encode($obj)."]";
     }
-    echo $jsonObj;
+    echo \$jsonObj;
 }
 
 
