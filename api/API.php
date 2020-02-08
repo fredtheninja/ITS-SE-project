@@ -74,7 +74,7 @@ function Login(){
         $obj=["status"=>"450","statusDescription"=>"No user found"];
         $jsonObj="[".json_encode($obj)."]";
     }
-    echo $jsonObj;
+    echo \$jsonObj;
 }
 
 function Book(){
